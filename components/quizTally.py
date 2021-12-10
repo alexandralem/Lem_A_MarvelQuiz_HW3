@@ -21,14 +21,14 @@ def total(value):
 
 
     elif value <= 1000:
-        vars.character = vars.characters[3]
+        vars.character = vars.characters[2]
 
         print(Fore.GREEN + "\033[1m" + "It's " + vars.character + "\033[0m")
         vars.images[3] = Image.open("images/thor.jpg")
         vars.images[3].show()
 
     elif value <= 2500:
-        vars.character = vars.characters[2]
+        vars.character = vars.characters[3]
 
         print(Fore.GREEN + "\033[1m" + "It's " + vars.character + "\033[0m")
         vars.images[2] = Image.open("images/hawkeye.jpg")
