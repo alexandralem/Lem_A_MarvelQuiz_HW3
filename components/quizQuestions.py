@@ -1,30 +1,34 @@
+from colorama import Fore, Back, Style
+from colorama import init
+init(autoreset=True)
+
 questions = {
     "q1" : {
-        "question":"Were you born on Earth? ",
+        "question": Fore.RED + "\033[1m" + "Were you born on Earth? " + "\033[0m",
         "yes" : 0,
         "no" : 500
     },
 
     "q2" : {
-        "question":"Do you have superpowers? ",
+        "question": Fore.RED + "\033[1m" + "Do you have superpowers? " + "\033[0m",
         "yes" : 0,
         "no" : 100
     },
 
      "q3" : {
-        "question":"Are you female? ",
+        "question": Fore.RED + "\033[1m" + "Are you female? " + "\033[0m",
         "yes" : 1000,
         "no" : 0
     },
 
      "q4" : {
-        "question":"Can you fly? ",
+        "question": Fore.RED + "\033[1m" + "Can you fly? " + "\033[0m",
         "yes" : 50,
         "no" : 0
     },
 
      "q5" : {
-        "question":"Do you carry a weapon? ",
+        "question": Fore.RED + "\033[1m" + "Do you carry a weapon? " + "\033[0m",
         "yes" : 10,
         "no" : 0
     },
