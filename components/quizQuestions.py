@@ -17,7 +17,7 @@ questions = {
 
      "q3" : {
         "question": Fore.RED + "\033[1m" + "Are you female? " + "\033[0m",
-        "yes" : 1000,
+        "yes" : 3000,
         "no" : 0
     },
 
@@ -28,7 +28,7 @@ questions = {
     },
 
      "q5" : {
-        "question": Fore.RED + "\033[1m" + "Do you carry a weapon? " + "\033[0m",
+        "question": Fore.RED + "\033[1m" + "Do you rely on specific weapons or any other items in battle? " + "\033[0m",
         "yes" : 100,
         "no" : 0
     },
