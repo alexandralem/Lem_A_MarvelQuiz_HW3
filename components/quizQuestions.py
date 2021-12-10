@@ -12,7 +12,7 @@ questions = {
     "q2" : {
         "question": Fore.RED + "\033[1m" + "Do you have superpowers? " + "\033[0m",
         "yes" : 0,
-        "no" : 100
+        "no" : 2000
     },
 
      "q3" : {
@@ -29,7 +29,7 @@ questions = {
 
      "q5" : {
         "question": Fore.RED + "\033[1m" + "Do you carry a weapon? " + "\033[0m",
-        "yes" : 10,
+        "yes" : 100,
         "no" : 0
     },
 
