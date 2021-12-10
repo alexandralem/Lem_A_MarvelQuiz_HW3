@@ -5,7 +5,7 @@ from colorama import init
 
 init(autoreset=True)
 
-print(Fore.BLUE + "\033[1m" + "Choose one of the following characters and keep this character in your mind while answering questions: Thor, Captain America, Hulk, Hawkeye, Black Widow" + "\033[0m")
+print(Fore.BLUE + "\033[1m" + "Choose one of the following characters and keep this character in your mind while answering questions: Thor, Captain America, Hulk, Hawkeye, Captain Marvel" + "\033[0m")
 
 answer1 = questions["q1"][input(questions["q1"]["question"])]
 print(answer1)
